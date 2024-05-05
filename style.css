@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    max-width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.headone h3 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 1rem;
+}
+
+nav a:hover {
+    color: gold;
+    background-color: #1f1f1f;
+}
+
+#home {
+    border: 4px solid rgb(255, 255, 255);
+    margin-bottom: 0%;
+    max-width: 100%;
+    height: 600px;
+}
+
+.h-container img {
+    width: 100%;
+    height: 600px;
+}
+
+.centered {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#services {
+    background-image: url(images/service.jpg);
+    border: 4px solid rgb(255, 255, 255);
+    margin-bottom: 0%;
+    max-width: 100%;
+    height: 500px;
+}
+
+.s-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.s-container h1 {
+    font-size: 2.7em;
+    width: 600px;
+    text-align: center;
+    color: #000000;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(182, 225, 27, 0.788);
+    padding: 10px;
+}
+
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#review {
+    background-image: url(images/review.avif);
+    border: 4px solid rgb(255, 255, 255);
+    height: 700px;
+    max-width: 100%;
+}
+
+.r-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.r-container h1 {
+    font-size: 2.7em;
+    width: 600px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card {
+    display: flex;
+    background-color: #767474;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: rgba(239, 230, 230, 0.6);
+}
+
+.review-text {
+    margin-bottom: 10px;
+}
+
+.author {
+    font-style: italic;
+}
+
+#contactus {
+    border: 4px solid rgb(255, 255, 255);
+    background-color: #e7dada;
+    max-width: 100%;
+}
+
+.Contact {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Contact h1 {
+    width: 600px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #2a2828;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #878787;
+}
+
+footer {
+    bottom: 0%;
+    max-width: 100%;
+    background-color: #444343;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
